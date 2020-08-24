@@ -1,0 +1,63 @@
+//login
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    background-position: center ;
+    background-size: cover;
+    font-family: sans-serif;
+    
+
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0.5,0.5);
+    color: azure;
+    transform: translate(170%,17%);
+ 
+  
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+     transform: translate(85%,-50%);
+    border-color: transparent
+}
+
+h4{
+    margin-bottom: 0;
+    padding-bottom: 0 0 20;
+    text-align-last: center;
+    
+}
+h1{
+    margin-bottom: 0;
+    padding-bottom: 0 0 20;
+    
+    
+}
+
+.loginbox p{
+    padding-left: 10px;
+    font-weight: 200;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.loginbox button{
+    background-color: transparent;
+    border-color: transparent;
+    position: center;
+    transform: translate(45%,-15%);   
+}
+
+.loginbox input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: white;
+}

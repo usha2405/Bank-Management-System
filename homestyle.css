@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    background-position: center ;
+    background-size: cover;
+    font-family: sans-serif;
+    color:grey;
+}
+.dropd{
+   width: 100%;
+    height: 70px;
+    background: rgba(0,0,0.5,0.5);
+    color: azure;
+    padding: 0px 50px;
+    
+ 
+}
+
+a,h1,h2,h3{
+    color: grey;
+    text-decoration: none;
+}
+.dropd ul{
+padding: 30px 30px;
+    
+}
+.dropd ul li{
+  float: left;
+    list-style: none;
+    padding: 0px 50px;
+    position: relative;
+    
+}
+
+.dropd ul li ul{
+    display: none;
+    width: 100%;
+    transform: translate(0%,28%);
+  background: rgba(0,0,0.5,0.5);
+    color: azure;
+    
+}
+.dropd ul li:hover ul{
+    display: block;
+    z-index: inherit;
+   
+}
+
+.dropd ul li ul:hover{
+   background-color: aquamarine;
+    color: black;
+}
+
+.logo img{
+    transform: translate(0%,25%);
+    padding: 20px;
+}
+
+.aboutus {
+    width: 620px;
+    height: 420px;
+    background: rgba(0,0,0.5,0.5);
+    color: azure;
+    transform: translate(95%,-75%);
+    
+ }
+.aboutus h4{
+    padding: 30px;
+    text-align:center;
+}
+.vPhotoHolder{
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.col-sm-9,col-xs-12{
+    width:73%;
+    display: inline;
+    padding-top: 30px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*TRYING SLIDER*/
+
+.mySlides{
+    display: none;
+}
+/*-----------------------------------*/
+/*Slider*/
+.company{
+    vertical-align: middle;
+    height: 355px;
+    transform: translate(2%,20%);
+}
+
+.slideshow-container{
+    max-height: 100%;
+    position: relative;
+    padding-top: 5%;
+/*
+    padding-left: 20%;
+    padding-right: 2%;
+*/
+    height: 25%;
+    margin-left: 50px;
+}
+
+.dot 
+{
+  height: 15px;
+  width: 20px;
+  padding-top: 2px;
+  margin: 130 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.changebt {
+    font-family: Calibri, sans-serif;
+    font-size:13px;
+    font-weight: bold;
+    width: 160px;
+    height: 25px;
+    background:grey;
+    color: white
+}
+.selected {
+    color: white;
+    background:green
+}
+button#cssColorChange:active{
+    color: white;
+    background:red
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: white;
+}
+
+.heading{
+   font-family: 'Orienta', sans-serif;
+   font-style: italic;
+    text-shadow: 0 2px #666699, 0 3px #555447;
+}
